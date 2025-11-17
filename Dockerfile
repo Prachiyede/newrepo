@@ -1,3 +1,4 @@
 FROM python:3.11-slim
-COPY app.py /app.py
+COPY src/app.py /app.py   # if app.py is inside 'src' folder
 CMD ["python", "/app.py"]
+
